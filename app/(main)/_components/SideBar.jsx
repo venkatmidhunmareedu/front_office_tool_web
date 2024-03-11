@@ -4,44 +4,44 @@ import Link from 'next/link';
 
 const sidebar_elements = [
   {
-    src: '/path-12276.svg',
+    src: '/path-12276.svg',  // Home
     className: 'cursor-pointer w-[41.44px] h-[41.44px]',
     href : '/'
   },
   {
-    src: '/group-17434.svg',
+    src: '/group-17434.svg', // Add new
     className: 'w-[45px] h-[45px]  cursor-pointer',
-    href : '/'
+    href : '/addnew'
   },
   {
-    src: '/group-17799.svg',
+    src: '/group-17799.svg', // history
     className: 'w-[45.91px] h-[45.91px] cursor-pointer',
-    href : '/chats'
+    href : '/history'
   },
   {
-    src: '/group-17797.svg',
+    src: '/group-17797.svg', // starred
     className: 'w-[49.88px] h-[47.58px] cursor-pointer',
-    href : '/chats'
+    href : '/starred'
   },
   {
-    src: '/path-12188.svg',
+    src: '/path-12188.svg', // mentions
     className: 'max-h-full w-[33.69px] cursor-pointer',
-    href : '/chats'
+    href : '/mentions'
   },
   {
-    src: '/group-17827.svg',
+    src: '/group-17827.svg', //drafts
     className: ' w-[46.92px] h-[43.17px] cursor-pointer',
-    href : '/chats'
+    href : '/drafts'
   },
   {
-    src: '/path-12204.svg',
+    src: '/path-12204.svg', //notifications
     className: 'w-fit h-fit cursor-pointer',
-    href : '/chats'
+    href : '/notifications'
   },
   {
-    src: '/group-17793.svg',
+    src: '/group-17793.svg', //settings
     className: 'w-[45.5px] h-[45.5px] cursor-pointer',
-    href : '/chats'
+    href : '/settings'
   }
 ]
 
