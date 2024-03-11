@@ -2,7 +2,7 @@ import React from 'react'
 
 const ProfileCard = () => {
     return (
-        <div className='inline py-1 pb-2 px-4 box-border text-darkslategray border-b-[1px] border-solid border-gainsboro-200'>
+        <div className='inline py-1 pb-2 px-4 box-border text-darkslategray border-b-[1px] border-solid border-gainsboro-200 md:block hidden'>
             <div className='flex items-center space-x-4'>
                 <div className='relative border-gray-400 border '>
                     {/* profile pic */}

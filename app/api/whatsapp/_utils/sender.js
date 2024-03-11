@@ -7,10 +7,12 @@ const send_message = ( message ) => {
         .create({
             body: message,
             from: 'whatsapp:+14155238886',
-            to: 'whatsapp:+916300399969'
+            to: 'whatsapp:+918374370969'
         })
         .then(message => console.log(message));
 }
+
+
 
 module.exports = {
     send_message

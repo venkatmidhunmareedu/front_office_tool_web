@@ -7,7 +7,7 @@ import SearchBar from "./SearchBar";
 
 const ContactCard = () => {
   return (
-    <span className="font-poppins text-xs scale-90">
+    <span className="font-poppins text-xs scale-90 md:block hidden">
       <div className=" my-1 mb-2 flex justify-between">
         <span className="font-semibold text-lg text-darkslategray mb-2"> Recent Messages</span>
         <div>

@@ -1,4 +1,4 @@
-const smsutils = require('./_utils/smsutils');
+const smsutils = require('./_utils/sender');
 
 export async function GET() {
     return Response.json({ message: 'Front office tool is up and running' })
