@@ -3,6 +3,7 @@ import React from 'react'
 import MessageCard from './_components/MessageCard'
 import ChatWindow from './_components/ChatWindow'
 import PatientSection from './_components/PatientSection'
+import Loading from './loading'
 
 
 
